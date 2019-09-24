@@ -14,6 +14,7 @@ public class canvas2 : MonoBehaviour
     public GameObject toggle;
     public GameObject Canvas2;
     public Animator anim;
+    public GameObject verifyButton;
     
     // Start is called before the first frame update
     void Start()
@@ -30,8 +31,7 @@ public class canvas2 : MonoBehaviour
     public void verify()
     {
         rickshaw.SetActive(false);
-        check_battery.SetActive(false);
-        check_tire.SetActive(false);
+        verifyButton.SetActive(false);
         UI.SetActive(true);
     }
 
